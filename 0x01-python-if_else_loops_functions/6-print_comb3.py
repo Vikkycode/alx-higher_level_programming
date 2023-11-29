@@ -2,4 +2,5 @@
 for i in range(10):
     for j in range(i, 10):
         if i < j:
-            print(f"{i}{j}", end="\n" if i == 8 and j == 9 else ", ")
+            ending = "\n" if i == 8 and j == 9 else ", "
+            print("{:d}{:d}".format(i, j), end=ending)
