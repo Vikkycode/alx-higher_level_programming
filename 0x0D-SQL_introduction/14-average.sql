@@ -1,3 +1,3 @@
---compute the average sore of all records in the table second table
+-- Computes the average score of all records in the table second_table.
 SELECT AVG(`score`) AS `average`
 FROM `second_table`;
